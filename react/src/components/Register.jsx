@@ -63,7 +63,7 @@ export default function Register() {
           >
             <option value="BUYER">Buyer</option>
             <option value="SELLER">Seller</option>
-            <option value="ADMIN">Admin</option>
+            {/* <option value="ADMIN">Admin</option> */}
           </select>
 
           <div className="auth-roles">Roles: <span className="muted">Buyer</span> — browse & purchase; <b>Seller</b> — create listings and manage your art; <span className="muted">Admin</span> — site management.</div>
